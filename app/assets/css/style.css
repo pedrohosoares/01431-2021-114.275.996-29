@@ -1,0 +1,134 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+  }
+  
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  table td a{
+    text-decoration: none;
+    border: 1px solid #afaaaa;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 200px;
+    font-size: 20px;
+    height: 47px;
+    width: 122px;
+  }
+  table td a:hover{
+      background: #CCC;
+  }
+  label{
+      margin-left:10px;
+      margin-bottom:0px;
+      margin-top:15px;
+      display: block;
+  }
+  input[type="submit"]{
+    max-width: 200px;
+    font-size: 20px;
+    height: 47px;
+  }
+  input[type="submit"]:hover{
+      background: #CCC;
+  }
+  input,textarea,select,div.menu a{
+    width: 98%;
+    height: 33px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #afaaaa;
+  }
+  div.menu{
+    margin-top: 23px;
+  }
+  div.menu a{
+    text-decoration: none;
+    margin-top:10px
+  }
+  select{
+    height: 55px;
+    }
+  fieldset{
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+  }
+  table{
+    
+    margin-top: 24px;
+
+  }
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }

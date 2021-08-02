@@ -1,0 +1,19 @@
+{
+    "name": "pedrohosoares/cetec",
+    "description": "Exame CETEC-DIGI01431-2021-114.275.996-29",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Pedro Soares",
+            "email": "pedrohosoares@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\":"App/"
+        }
+    }
+}
